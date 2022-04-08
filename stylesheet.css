@@ -3,6 +3,18 @@
     padding: auto;
 }
 
+.animate{
+    height:200px;
+    width: 200px;
+    background-color: #a52a2a;
+    transition: 2s;
+}
+
+.animate:hover{
+    width: 100%;
+    background-color: blue;
+}
+
 
 
 
@@ -102,24 +114,93 @@
 }
 
 
+
+.row::after{
+    content:' ';
+    clear: both;
+    display: block;
+}
+
+li a:hover{
+    background-color: rgb(233, 119, 42);
+}
+
 .heder-height{
     height: 200px;
-    background-color: blueviolet;
+    
 }
 
 .Menu-height{
     height: 50px;
     background-color: aqua;
+    
 }
 
 
 .content-height{
-    height: 500px;
-    background-color: rgb(43, 226, 104);
+    height: 800px;
+   
+   
 }
 
 
 .foter-height{
     height: 200px;
-    background-color: blue;
+    background-color: aqua;
+}
+
+
+
+
+.img{
+    height: 198px;
+    width: 337px;
+}
+
+.bannar{
+    height: 200px;
+    width: 1011px;
+}
+
+.left-sidebar{
+    height: 799px;
+    width: 336px;
+}
+
+
+
+
+.center{
+    height: 799px;
+    width: 785px;
+}
+
+
+.sidebar{
+    height: 799px;
+    width: 224px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+li{
+    float: left;
+    display: block;
+    padding: 10px;
+}
+
+
+li a {
+    text-decoration: none;
+    color: rgb(62, 243, 26);
+    padding: 10px;
+    border-radius: 10px 30px 20px 40px;
+
 }
